@@ -7,7 +7,7 @@ metadata:
     tier: frontend
 spec:
   ports:
-  - port: "{{ .Values.servicePort }}"
+  - port: {{ .Values.servicePort }}
     targetPort: 80
   selector:
     app: guestbook
