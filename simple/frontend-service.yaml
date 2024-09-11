@@ -6,7 +6,7 @@ metadata:
     tier: frontend
 spec:
   ports:
-  - port: 8090
+  - port: 8080
     targetPort: 80
   selector:
     tier: frontend
